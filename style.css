@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.conteiner {
+    background-color: #ccc;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.wrapper {
+    margin-top: 10%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.name {
+    text-align: center;
+    flex-basis: 100%;
+    line-height: 200%;
+}
+
+.writeTask {
+    flex-basis: 90%;
+    margin: 0 30px 0 30px;
+    line-height: 200%;
+}
+
+.tasks {
+    text-align: center;
+    flex-basis: 100%;
+    height: 40vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.btn {
+
+    flex-basis: 40%;
+    line-height: 200%;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    background-color: #ccc;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+h3 {
+    width: 100%;
+}
+
+ul {
+    width: 90%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0 40px;
+
+}
+
+.task {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: left;
+    position: relative;
+
+}
+
+.removeTask {
+    position: absolute;
+    right: 0;
+    transition: 1s;
+}
+
+.removeTask:hover {
+    cursor: pointer;
+    transform: rotate(150deg)
+}
