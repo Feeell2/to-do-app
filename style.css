@@ -120,6 +120,10 @@ ul {
         height: 90vh;
     }
 
+    .removeTask {
+        right: 10px;
+    }
+
     .task {
         font-size: 1rem;
     }
