@@ -89,16 +89,11 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 30px 30px 0 40px;
-
-
 }
 
 .task {
     font-size: 1.5rem;
     text-align: left;
-
-
-
 }
 
 .removeTask {
@@ -113,6 +108,22 @@ ul {
 }
 
 @media(max-width:500px) {
+
+    .writeTask {
+        font-size: 18px;
+        margin: 0 30px 0 30px;
+        height: 50px;
+    }
+
+    .btns {
+
+        margin-top: 10px;
+
+    }
+
+    .btn {
+        height: 40px;
+    }
 
     .wrapper {
         margin-top: 3vh;
